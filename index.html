@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <h2>Logo</h2>
+        <div class="nav-part2">
+          <ul>
+            <li ref="">Home</li>
+            <li>Projects</li>
+            <li>Experience</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <div class="contnent">
+        <div class="left">
+          <h1>
+            Hi, I'm <span>Rahul Prajapati</span>, a
+            <span>Game Developer</span> exploring <span>Web Technologies</span>.
+          </h1>
+          <p>
+            With over two years of experience in Unity game development, I’m now
+            expanding into web technologies, blending creativity with
+            interactivity to craft engaging digital experiences.
+          </p>
+          <button>View My Work</button>
+        </div>
+        <div class="right">
+          <img src="developer.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="about-left">
+        <img src="bg.png" alt="Rahul Prajapati" />
+      </div>
+      <div class="about-right">
+        <h2>About Me</h2>
+        <p>
+          I'm <strong>Rahul Prajapati</strong>, a Unity Developer passionate
+          about building immersive digital experiences. With over two years of
+          experience in game development, I have worked on
+          <strong
+            >AR applications, multiplayer games, and architectural
+            visualizations</strong
+          >.
+        </p>
+        <p>
+          Currently, I’m diving into <strong>Web Development</strong> to expand
+          my expertise in creating interactive 3D experiences on the web. I'm
+          learning <strong>JavaScript, React, and Panolens.js</strong> to bridge
+          the gap between gaming, AR/VR, and web technologies.
+        </p>
+        <p>
+          My goal is to craft innovative and engaging digital solutions that
+          merge the best of both worlds—<strong
+            >game development and web technologies</strong
+          >.
+        </p>
+      </div>
+    </div>
+
+    <section class="projects">
+      <h2>My Projects</h2>
+      <p class="subheading">
+        A showcase of my work in game development, AR/VR, and web technologies.
+      </p>
+      <div class="project-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="project1.jpg" alt="3D Endless Runner Game" />
+          <div class="project-info">
+            <h3>3D Endless Runner Game</h3>
+            <p>
+              A fast-paced and addictive endless runner featuring stunning 3D
+              visuals, dynamic obstacles, and exhilarating power-ups. Challenge
+              yourself with increasing difficulty, unlock unique characters, and
+              experience smooth mobile gameplay!
+            </p>
+            <span
+              ><strong>Tech:</strong> Unity, C#, Mobile Optimization,
+              Animations, Particle Effects</span
+            >
+            <div class="project-links">
+              <button
+                class="openVideo"
+                data-video="https://drive.google.com/file/d/1ifoTw7n1bUkXhfLEVnuk1qVfG9rZPH6Q/preview"
+              >
+                View Project
+              </button>
+              <a href="#" class="btn secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="project2.jpg" alt="First-Person Shooter Game" />
+          <div class="project-info">
+            <h3>First-Person Shooter Game</h3>
+            <p>
+              A thrilling single-player FPS game featuring realistic gun
+              mechanics, smooth animations, and immersive gameplay. Experience
+              dynamic AI enemies, responsive shooting mechanics, and fluid
+              movement controls.
+            </p>
+            <span
+              ><strong>Tech:</strong> Unity, C#, Animations, AI Systems</span
+            >
+            <div class="project-links">
+              <button
+                class="openVideo"
+                data-video="https://drive.google.com/file/d/15ubGGOYdrjmpCH4RUGsrIOTiuAA0Jd4h/preview"
+              >
+                View Project
+              </button>
+              <a href="#" class="btn secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="project3.png" alt="Educational AR Application" />
+          <div class="project-info">
+            <h3>Educational AR Application for Children</h3>
+            <p>
+              An interactive Augmented Reality (AR) application designed to
+              enhance children's learning experiences. It uses image tracking to
+              bring real-world objects to life with engaging 3D animations and
+              interactive content, making education fun and immersive.
+            </p>
+            <span
+              ><strong>Tech:</strong> Unity, AR Foundation, Vuforia, C#</span
+            >
+            <div class="project-links">
+              <button
+                class="openVideo"
+                data-video="https://drive.google.com/file/d/1YMHaszblPvJgMbjRjG4Dkx_x5mfmmKZ-/preview"
+              >
+                View Project
+              </button>
+              <a href="#" class="btn secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project4.jpg" alt="Web-Based Architecture Visualization" />
+          <div class="project-info">
+            <h3>Web-Based Architecture Visualization Demo</h3>
+            <p>
+              A real-time interactive 3D architecture visualization platform
+              built for the web. This demo allows users to explore architectural
+              spaces seamlessly, providing a high-quality walkthrough experience
+              without requiring any software installation.
+            </p>
+            <span><strong>Tech:</strong> Three.js, JavaScript, WebGL</span>
+            <div class="project-links">
+              <button
+                class="openVideo"
+                data-video="https://drive.google.com/file/d/1AhsVMJrQeQmfP3hPwzbS3qIMbUPJSBwk/preview"
+              >
+                View Project
+              </button>
+              <a href="#" class="btn secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="portfolio.jpg" alt="Personal Portfolio Website" />
+          <div class="project-info">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A modern and responsive portfolio website showcasing my skills,
+              projects, and journey. Built with clean UI/UX principles, it
+              highlights my transition from Unity Game Development to Web
+              Technologies.
+            </p>
+            <span><strong>Tech:</strong> HTML, CSS, JavaScript</span>
+            <div class="project-links">
+              <button
+                class="openVideo"
+                data-video="https://your-portfolio-live-link.com"
+              >
+                View Project
+              </button>
+              <a
+                href="https://github.com/yourgithub/portfolio"
+                class="btn secondary"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project5.png" alt="Furniture Showcasing AR App" />
+          <div class="project-info">
+            <h3>Furniture Showcasing AR Application</h3>
+            <p>
+              An Augmented Reality mobile application that allows users to place and visualize furniture items in real-world environments using their phone camera. Designed to enhance online furniture shopping with immersive 3D previews.
+            </p>
+            <span><strong>Tech:</strong> Unity, C#, Vuforia, ARCore, Android</span>
+            <div class="project-links">
+              <button
+                class="openVideo"
+                data-video="https://drive.google.com/file/d/1iIpuZB7G6GlcjG_J05VmVc-qLy9rIrOV/preview
+                "
+              >
+                View Project
+              </button>
+              <a href="#" class="btn secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+
+    <section class="skills">
+      <h2>My Skills & Technologies</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="ri-gamepad-line"></i>
+          <h3>Game Development</h3>
+          <p>Unity, C#, AR/VR, Multiplayer, Optimization</p>
+        </div>
+        <div class="skill-card">
+          <i class="ri-code-line"></i>
+          <h3>Web Development (Learning)</h3>
+          <p>
+            HTML, CSS, JavaScript (Basics), Three.js (Learning), Panolens.js
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="ri-tools-line"></i>
+          <h3>Other Skills</h3>
+          <p>Firebase, Git, Addressables, Blender, UI/UX</p>
+        </div>
+      </div>
+    </section>
+    <section class="learning">
+      <h2>My Learning Journey</h2>
+      <p>
+        I have 2 years of experience in Unity game development and am currently
+        expanding my skills into web development.
+      </p>
+      <p>Currently learning: JavaScript, Three.js, Panolens.js</p>
+    </section>
+    <section class="experience">
+      <span class="subheading">What I have done so far</span>
+      <h2>Work Experience</h2>
+
+      <div class="timeline">
+        <!-- Unity Developer - Upsquare Solutions -->
+        <div class="timeline-item">
+          <img class="timeline-icon" src="developer.png" alt="Developer Icon" />
+          <div class="timeline-content">
+            <h3>Unity Developer</h3>
+            <span class="duration">(Jun 2024 - January2025)</span>
+            <p><strong>Upsquare Solutions</strong></p>
+            <ul>
+              <li>
+                <strong>3D Endless Runner Game:</strong> Developed a procedural
+                level generation system with optimized touch-based controls.
+              </li>
+              <li>
+                Implemented a daily reward system and character unlock features
+                to enhance user retention.
+              </li>
+              <li>
+                Designed dynamic obstacle generation for gameplay variety and
+                smooth performance across devices.
+              </li>
+            </ul>
+            <p class="learning">
+              📌 <strong>Currently Learning:</strong> Web Technologies
+              (JavaScript, React, Three.js) and looking for a Frontend
+              Internship.
+            </p>
+          </div>
+        </div>
+
+        <!-- Freelance Unity Developer -->
+        <div class="timeline-item">
+          <img class="timeline-icon" src="developer.png" alt="Freelance Icon" />
+          <div class="timeline-content">
+            <h3>Freelance Unity Developer</h3>
+            <span class="duration">(Feb 2024 - Jun 2024)</span>
+            <p>
+              <em
+                >Note: Took a career break due to medical reasons but remained
+                active through freelance work.</em
+              >
+            </p>
+            <ul>
+              <li>
+                <strong>3D Architecture Visualization (Unity HDRP):</strong>
+                Created photorealistic visuals with advanced rendering.
+              </li>
+              <li>
+                <strong>3D Brochure:</strong> Developed an interactive brochure
+                with language selection for enhanced accessibility.
+              </li>
+              <li>
+                <strong>Educational AR App:</strong> Built an AR-based learning
+                app for children using image tracking.
+              </li>
+              <li>
+                <strong>AR Filters:</strong> Designed interactive AR filters for
+                Instagram & Snapchat.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Junior Unity Developer - Techvoot Solutions -->
+        <div class="timeline-item">
+          <img class="timeline-icon" src="developer.png" alt="Techvoot Icon" />
+          <div class="timeline-content">
+            <h3>Junior Unity Developer</h3>
+            <span class="duration">(Jun 2022 - Jan 2024)</span>
+            <p><strong>Techvoot Solutions</strong></p>
+            <ul>
+              <li>
+                <strong>Location-Based AR App:</strong> Integrated AR+GPS for
+                real-world AR interactions.
+              </li>
+              <li>
+                <strong>Multiplayer Game:</strong> Built a multiplayer game
+                using Mirror Networking.
+              </li>
+              <li>
+                <strong>AR Quiz Application:</strong> Developed an interactive
+                quiz app using AR Foundation.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Let's Connect! 🚀</h2>
+      <p>
+        I'm always open to new opportunities and collaborations. Feel free to
+        reach out!
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-card">
+          <i class="bx bxl-gmail" style="font-size: 3rem; color: #d14836"></i>
+          <h3>Email Me</h3>
+          <p>Let's chat over email</p>
+          <a href="mailto:imrahulprajapati23@gmail.com"
+            >imrahulprajapati23@gmail.com</a
+          >
+        </div>
+
+        <div class="contact-card">
+          <i
+            class="bx bxl-linkedin-square"
+            style="font-size: 3rem; color: #0077b5"
+          ></i>
+          <h3>LinkedIn</h3>
+          <p>Connect with me</p>
+          <a
+            href="https://www.linkedin.com/in/rahul-prajapati-3958281aa/"
+            target="_blank"
+            >View Profile</a
+          >
+        </div>
+
+        <!-- <div class="contact-card">
+          <img src="github-icon.png" alt="GitHub Icon" />
+          <h3>GitHub</h3>
+          <p>Check out my work</p>
+          <a href="https://github.com/yourgithub" target="_blank"
+            >Visit GitHub</a
+          >
+        </div>
+      </div> -->
+    </section>
+
+    <!-- View Project Button -->
+
+    <!-- Video Popup -->
+    <div id="videoPopup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <iframe
+          id="videoFrame"
+          width="400"
+          height="300"
+          src="https://drive.google.com/file/d/15ubGGOYdrjmpCH4RUGsrIOTiuAA0Jd4h/preview"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </div>
+
+    <div id="videoPopup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <iframe
+          id="videoFrame"
+          width="400"
+          height="300"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
