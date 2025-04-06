@@ -40,6 +40,13 @@ body {
   font-weight: 100;
 }
 
+.nav img {
+  height: 50px;
+  width: 50px;
+
+  object-fit: cover;
+}
+
 .nav-part2 ul {
   text-decoration: none;
 
@@ -523,6 +530,7 @@ button {
 
   .projects {
     padding: 30vw 10vw;
+    padding-top: 40vw;
   }
 
   .project-container {
